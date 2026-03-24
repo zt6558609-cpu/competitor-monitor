@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "测试商品 - 无线鼠标",
+      "url": "https://item.taobao.com/item.htm?id=123456",
+      "platform": "taobao",
+      "target_price": 59.9,
+      "enabled": true,
+      "check_interval": 30
+    }
+  ],
+  "monitoring": {
+    "default_interval": 30,
+    "price_alert_threshold": 5,
+    "price_alert_threshold_pct": 0.05
+  },
+  "notify_rules": {
+    "price_drop": true,
+    "price_rise": false,
+    "out_of_stock": true,
+    "back_in_stock": true,
+    "promotion": true
+  }
+}
